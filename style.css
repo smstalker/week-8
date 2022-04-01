@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(250,204,173);
+    font-family: 'Courier New', monospace;
+}
+h2, h1 {
+    color:cadetblue;
+}
+ul {
+    background-color: antiquewhite;
+    width: 25%;
+    text-align: left;
+    padding: 3px;
+    border-style: groove;
+    border-width: 3px;
+    margin: 10px
+}
+li {
+    color: darkgreen;
+    
+}
+p { 
+    color: darkcyan;
+}
+#linkdiv {
+    color: cadetblue;
+    text-align: left;
+}
+
+#linkdiv :hover {
+    color:rgb(0, 255, 64);
+}
+table, th, td {
+    border: 3px groove rgb(223, 220, 220);
+    color:rgb(95, 94, 94);
+    }
+img {
+    padding: 10px;
+    margin: 10px;
+
+}   
+
+form {
+    background-color: darkmagenta;
+    padding-bottom: 20px;
+}
+
+input[type=submit] {
+    background-color: darkcyan;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
