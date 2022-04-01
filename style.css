@@ -1,8 +1,28 @@
+
+#hero
+{
+    background-image: url('https://veganfoodandliving-1321f.kxcdn.com/wp-content/uploads/2020/12/fresh-colourful-fruits-and-vegetables-rainbow.jpg');
+    
+    height: 75px;
+    text-align: center;
+    padding:5%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+   
+}
+
 body {
     background-color: rgb(250,204,173);
     font-family: 'Courier New', monospace;
 }
-h2, h1 {
+h1 {
+    color:antiquewhite;
+    font-size: 500%;
+    padding: 10px;
+    
+}
+
+h2 {
     color:cadetblue;
 }
 ul {
@@ -23,7 +43,8 @@ p {
 }
 #linkdiv {
     color: cadetblue;
-    text-align: left;
+    float: left;
+    
 }
 
 #linkdiv :hover {
@@ -36,7 +57,7 @@ table, th, td {
 img {
     padding: 10px;
     margin: 10px;
-
+    clear:both;
 }   
 
 form {
